@@ -14,11 +14,29 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="追加ファイル">
+      <UniqueIdentifier>{1c41c328-bfd7-46ec-bd8d-c45d5d38a740}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>追加ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>追加ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>追加ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>追加ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManeger.cpp">
+      <Filter>追加ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +120,21 @@
     </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>追加ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>追加ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>追加ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>追加ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManeger.h">
+      <Filter>追加ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
